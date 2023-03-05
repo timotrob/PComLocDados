@@ -92,7 +92,7 @@ graph TD;
      meds_train_alunos.csv-->DF_TREINO;
      DF_TREINO-->ML_MODEL;
      meds_test_alunos.csv-->ML_MODEL;
-    meds_test-->submit_alunos.csv;
+    ML_MODEL-->submit_alunos.csv;
 ```
 
 
