@@ -18,6 +18,8 @@ Contém dados de Localização para projeto da disciplina PCOM
 
 ## meds_train_alunos.csv - Arquivos de Treino para os alunos
 
+Esse arquivo deve ser utilizado para treinar os modelos de Machine Learning.
+
 | Coluna  | Descrição |
 | ------------- | ------------- |
 | ponto_id  | Identificadro do Ponto|
@@ -37,7 +39,9 @@ Contém dados de Localização para projeto da disciplina PCOM
 |lon|longitude da medição|
 |indoor|Se a medição em ambiente indoor (Não está no arquivo de test)|
 
-## meds_test_alunos.csv - Arquivos de Treino para os alunos
+## meds_test_alunos.csv - Arquivos de Test para os alunos
+
+Esse arquivo dever ser utilizado para gerar as predições de localizações do arquivo *submit_alunos*.
 
 | Coluna  | Descrição |
 | ------------- | ------------- |
@@ -54,6 +58,18 @@ Contém dados de Localização para projeto da disciplina PCOM
 |delay_1|Atraso de Propagação Grupo 1|
 |delay_2|Atraso de Propagação Grupo 2|
 |delay_3|Atraso de Propagação Grupo 3|
+
+
+## submit_alunos.csv - Contém as predições para o arquivo de test (*meds_test_alunos.csv*)
+
+Os alunos devem gerar um arquivo com todas as predições de localização para as medições especificados no arquivo (*meds_test_alunos.csv*)
+
+| Coluna  | Descrição |
+| ------------- | ------------- |
+| ponto_id  | Identificadro do Ponto (link com o test file)|
+| lat_pred | latitude predita para ponto_id |
+| lon_pred | longitude predita para ponto_id|
+
 
 
 
