@@ -16,6 +16,8 @@ Contém dados de Localização para projeto da disciplina PCOM
 | azimuth | Azimute da Antena da BTS  |
 | RssiId |Identificador no arquivo de medições (treino/test) |
 
+
+
 ## meds_train_alunos.csv - Arquivos de Treino para os alunos
 
 Esse arquivo deve ser utilizado para treinar os modelos de Machine Learning.
@@ -39,6 +41,8 @@ Esse arquivo deve ser utilizado para treinar os modelos de Machine Learning.
 |lon|longitude da medição (Não está no arquivo de test)|
 |indoor|Se a medição em ambiente indoor (Não está no arquivo de test)|
 
+
+
 ## meds_test_alunos.csv - Arquivos de Test para os alunos
 
 Esse arquivo dever ser utilizado para gerar as predições de localizações do arquivo *submit_alunos*.
@@ -60,9 +64,10 @@ Esse arquivo dever ser utilizado para gerar as predições de localizações do 
 |delay_3|Atraso de Propagação Grupo 3|
 
 
+
 ## submit_alunos.csv - Contém as predições para o arquivo de test (*meds_test_alunos.csv*)
 
-Os alunos devem gerar um arquivo com todas as predições de localização para as medições especificados no arquivo (*meds_test_alunos.csv*)
+Arquivo com leiaute do arquivo que deve ser entregue com as predições de localização para as medições especificados no arquivo (*meds_test_alunos.csv*).
 
 | Coluna  | Descrição |
 | ------------- | ------------- |
