@@ -89,9 +89,11 @@ Arquivo com leiaute do arquivo que deve ser entregue com as predições de local
 ```mermaid
 graph TD;
     bts.csv-->DF_TREINO;
+     bts.csv-->DF_TEST;
      meds_train_alunos.csv-->DF_TREINO;
      DF_TREINO-->ML_MODEL;
-     meds_test_alunos.csv-->ML_MODEL;
+     meds_test_alunos.csv-->DF_TEST;
+      DF_TEST-->ML_MODEL;
     ML_MODEL-->submit_alunos.csv;
 ```
 
