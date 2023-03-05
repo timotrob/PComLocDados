@@ -83,13 +83,14 @@ Arquivo com leiaute do arquivo que deve ser entregue com as predições de local
 | lon_pred | longitude predita para ponto_id|
 
 
+## Diagrama Atividades
 
 
 ```mermaid
 graph TD;
-    btc.csv-->Treino;
-    meds_treino-->Treino;
-     Treino-->ML;
+    bts.csv-->Treino;
+    meds_treino-->DF_TREINO;
+     DF_TREINO-->ML;
      meds_test-->ML;
     meds_test-->SUBMIT;
 ```
