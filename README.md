@@ -1,3 +1,4 @@
+
 # Arquivos Projeto Localização PCOM
 Contém dados de Localização para projeto da disciplina PCOM
 
@@ -8,6 +9,8 @@ Contém dados de Localização para projeto da disciplina PCOM
 # Descriminação das Colunas nos arquivos
 
 ## Bts.csv - Arquivos com Dados da BTS.
+
+Arquivo com dados das BTSs. 
 
 | Coluna  | Descrição |
 | ------------- | ------------- |
@@ -53,7 +56,7 @@ Esse arquivo dever ser utilizado para gerar as predições de localizações do 
 
 | Coluna  | Descrição |
 | ------------- | ------------- |
-| ponto_id  | Identificadro do Ponto (link com o submit file)|
+| ponto_id  | Identificador do Ponto (link com o submit file)|
 | rssi_1_1 | Intensidade do Sinal (Received signal strength indication) BTS com RssiId=rssi_1_1|
 | rssi_1_2 | Intenidade do Sinal (Received signal strength indication) BTS com RssiId=rssi_1_2|
 | rssi_1_3 | Intensidade do Sinal (Received signal strength indication) BTS com RssiId=rssi_1_3|
