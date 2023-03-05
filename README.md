@@ -1,6 +1,10 @@
 # Arquivos Projeto Localização PCOM
 Contém dados de Localização para projeto da disciplina PCOM
 
+
+![Medições e BTSs](bts_meds.jpg)
+
+
 # Descriminação das Colunas nos arquivos
 
 ## Bts.csv - Arquivos com Dados da BTS.
