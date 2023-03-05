@@ -35,8 +35,8 @@ Esse arquivo deve ser utilizado para treinar os modelos de Machine Learning.
 |delay_1|Atraso de Propagação Grupo 1|
 |delay_2|Atraso de Propagação Grupo 2|
 |delay_3|Atraso de Propagação Grupo 3|
-|lat|latitude da medição|
-|lon|longitude da medição|
+|lat|latitude da medição (Não está no arquivo de test)|
+|lon|longitude da medição (Não está no arquivo de test)|
 |indoor|Se a medição em ambiente indoor (Não está no arquivo de test)|
 
 ## meds_test_alunos.csv - Arquivos de Test para os alunos
