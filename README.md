@@ -85,3 +85,19 @@ Arquivo com leiaute do arquivo que deve ser entregue com as predições de local
 
 
 
+```mermaid
+graph TD;
+    btc.csv-->Treino;
+    meds_treino-->Treino;
+     Treino-->ML;
+     meds_test-->ML;
+    meds_test-->SUBMIT;
+```
+
+
+
+
+
+
+
+
