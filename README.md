@@ -1,9 +1,9 @@
 # Arquivos Projeto Localização PCOM
 Contém dados de Localização para projeto da disciplina PCOM
 
-## Descriminação das Colunas nos arquivos
+# Descriminação das Colunas nos arquivos
 
-### Bts.csv - Arquivos com Dados da BTS.
+## Bts.csv - Arquivos com Dados da BTS.
 
 | Coluna  | Descrição |
 | ------------- | ------------- |
@@ -16,7 +16,7 @@ Contém dados de Localização para projeto da disciplina PCOM
 | azimuth | Azimute da Antena da BTS  |
 | RssiId |Identificador no arquivo de medições (treino/test) |
 
-### meds_train_alunos.csv - Arquivos de Treino para os alunos
+## meds_train_alunos.csv - Arquivos de Treino para os alunos
 
 | Coluna  | Descrição |
 | ------------- | ------------- |
